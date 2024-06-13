@@ -6,7 +6,8 @@ authors = ["Rico Witschas <rico@99coaches.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<=3.13"
+crewai = {extras = ["tools"], version = "^0.30.11"}
 
 
 [build-system]
